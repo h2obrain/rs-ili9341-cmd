@@ -1,9 +1,21 @@
 [package]
 name = "ili9341-cmd"
 version = "0.1.0"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/h2obrain/rs-ili9341-cmd"
+description = "Yet another library to control the ili9341 display controller"
+keywords = ["ili9431", "lcd", "display", "controller", "hardware"]
 authors = ["Oliver Meier <h2obrain@gmail.com>"]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[features]
+Ili9341ExtendedCommandSet = []
 
-[dependencies]
+[profile.dev]
+debug = true
+lto = true
+
+[profile.release]
+debug = true
+lto = true

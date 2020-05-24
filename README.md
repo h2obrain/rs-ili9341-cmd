@@ -5,3 +5,11 @@ The code is based on the [lcd-ili9341](https://crates.io/crates/lcd-ili9341) cra
 
 It is focussed around completeness and supports the command interface only.
 The idea is to provide a complete control interface to simplify glueing it to any graphics library.
+
+## License
+
+This project is primarily distributed under the terms of both the MIT license
+and the Apache License (Version 2.0).
+
+See [LICENSE-APACHE](LICENSE-APACHE), [LICENSE-MIT](LICENSE-MIT), and
+[COPYRIGHT](COPYRIGHT) for details.
